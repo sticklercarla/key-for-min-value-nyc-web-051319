@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
     array_of_values = value
-    array_of_values.
+    array_of_values.each do |num|
+      if num[]
   
 end
